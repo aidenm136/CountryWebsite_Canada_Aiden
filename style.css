@@ -10,8 +10,9 @@ nav{
 }
 nav a{
   flex: 1;
-  color:rgb(0, 0, 0);
-  text-align:center;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
 *{
@@ -36,7 +37,7 @@ nav a:hover{
 
 .main{
   font-size:50pt;
-  color: blue;
+  color: rgb(255, 0, 0);
 } 
 
 .toronto {
@@ -44,13 +45,13 @@ nav a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 700px;
   justify-content: center;
   align-items: center;
 }
 
 .canada img{
-  height: 300px;
+  height: 400px;
 }
 
 .canada div{
@@ -58,3 +59,29 @@ nav a:hover{
   padding: 20px;
 }
 
+#nav {
+  height: 50px;
+  align-items: center;
+  background-color: rgb(0, 11, 71);
+  color:rgb(255, 255, 25);
+}
+
+.nf img{
+  height: 600px;
+  
+}
+
+.nf div{
+  text-align: center;
+  padding: 20px;
+}
+
+.cn img{
+  height: 600px;
+  
+}
+
+.cn div{
+  text-align: center;
+  padding: 20px;
+}
